@@ -43,7 +43,7 @@ function BackgroundGeolocation()
 		"maxSilence" : 900000,
 		"minSilence" :   4000,
 		"maxSnail"   :  15000,
-		"minProgress":     15,
+		"minProgress":      5,
 		"maxAge"     :      0,
 		"accurate"   :   true,
 		"dropDodgy"  :  false

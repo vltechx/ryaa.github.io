@@ -137,28 +137,33 @@ self.addEventListener('install',
  */
 	function tellFleetManager(payLoad)
 	{
-		return new Promise((resolve, reject) =>
-		{
-			fetch(FLEET_MANAGER, {
-				method: "POST",
-				credentials: 'same-origin',
-				headers: {
-					'Content-Type': 'application/json'
-				},
-				body: payLoad
-			}).then(response =>
-					{
-						if (response.ok) {
-							resolve(response.json())
-						} else {
-							var error = new Error(response.statusText)
-							error.response = response
-							throw error;
-						}
-					}).catch(function(error) {
-						console.log('Fleet request failed', error)
-						reject(error);
-					});
+		// return new Promise((resolve, reject) =>
+		// {
+		// 	fetch(FLEET_MANAGER, {
+		// 		method: "POST",
+		// 		credentials: 'same-origin',
+		// 		headers: {
+		// 			'Content-Type': 'application/json'
+		// 		},
+		// 		body: payLoad
+		// 	}).then(response =>
+		// 			{
+		// 				if (response.ok) {
+		// 					resolve(response.json())
+		// 				} else {
+		// 					var error = new Error(response.statusText)
+		// 					error.response = response
+		// 					throw error;
+		// 				}
+		// 			}).catch(function(error) {
+		// 				console.log('Fleet request failed', error)
+		// 				reject(error);
+		// 			});
+		// })
+		return new Promise((resolve, reject) => {
+			// alert(`payload: ${JSON.stringify(payLoad)}`);
+			console('payload', JSON.stringify(payLoad));
+			resolve();
 		})
 	}	
 	
