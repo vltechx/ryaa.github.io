@@ -1,0 +1,963 @@
+{
+  "actions": {
+    "accept": "Accepter",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "continue": "Continuer",
+    "erase": "Effacer",
+    "ok": "OK",
+    "save": "Enregistrer",
+    "seen": "Confirmer",
+    "selectOrder": "Choisir une commande",
+    "select_all": "Toutes",
+    "view": "Ouvrir"
+  },
+  "awaitingTransition": {
+    "explanation": "Il y a des transitions qui n'ont pas encore été envoyées au serveur. Veuillez attendre que l'indicateur disparaisse avant de quitter l'application ou d'éteindre votre appareil."
+  },
+  "compass": {
+    "E": "E",
+    "ENE": "ENE",
+    "ESE": "ESE",
+    "N": "N",
+    "NE": "NE",
+    "NNE": "NNE",
+    "NNW": "NNO",
+    "NW": "NO",
+    "S": "S",
+    "SE": "SE",
+    "SSE": "SSE",
+    "SSW": "SSO",
+    "SW": "SO",
+    "W": "O",
+    "WNW": "ONO",
+    "WSW": "OSO"
+  },
+  "countdown": {
+    "prefix": "Délai"
+  },
+  "deploy": {
+    "channels": {
+      "beta": "beta",
+      "blue": "bleu",
+      "green": "vert",
+      "master": "master",
+      "production": "production",
+      "capacitor": "capacitor",
+      "purple": "violet",
+      "red": "rouge",
+      "testing": "testing",
+      "yellow": "jaune"
+    },
+    "checkAppStore": "Vous utilisez une version périmée, SVP vérifier la présence d'une mise à jour sur l'Apple Store",
+    "checkForUpdate": "Vérifier",
+    "checkPlayStore": "Vous utilisez une version périmée, SVP vérifier la présence d'une mise à jour sur le Google Play Store",
+    "downloadPrefix": "Téléchargement",
+    "extractPrefix": "Extraction",
+    "localChannelReset": {
+      "message": "Ceci va réinitialiser le canal de déploiement local, êtes vous sûr de vouloir continuer?",
+      "title": "Réinitialiser le canal de déploiement"
+    },
+    "networkProblem": "Problème lors de la mise à jour",
+    "newVersionAvailable": "Nouvelle version disponible",
+    "newVersionInstall": "Installer",
+    "newVersionInstallLong": "Installer la nouvelle version",
+    "openAppStore": "Ouvrir",
+    "versionIsOutdated": "Version périmée"
+  },
+  "desiredArrival": {
+    "after": "Après {{ end }}",
+    "before": "Avant {{ start }}",
+    "between": "{{ start }} à {{ end }}"
+  },
+  "diagnostic": {
+    "camera": {
+      "available": "Active",
+      "iosCameraSetting": "Vous devez aller dans vos paramètres pour autoriser cette permission.\nAllez Dans Réglages > Confidentialité > Caméra >  Mobilus",
+      "iosCameraSettingAlert": "Réglage de la caméra",
+      "iosCameraSettingConfirmation": "OK",
+      "requestPermission": "Autoriser",
+      "unauthorized": "Non autorisée",
+      "unavailable": "Inactive",
+      "warn": "Vous ne pourrez pas prendre de photos."
+    },
+    "debugReport": {
+      "action": "Envoyer",
+      "bugType": "Problème",
+      "contact": "Courriel ou téléphone",
+      "contactPhoneNumber": "Numéro de téléphone",
+      "contactEmail": "Courriel",
+      "contactTitle": "Indiquer comment vous rejoindre",
+      "description": "Envoyer un rapport de bogue à Mobilus",
+      "descriptionTitle": "Quel problème avez vous rencontré, après quelle(s) opération(s)?",
+      "issue_description": "Décrivez le problème rencontré",
+      "reportMessageInstructions": "Que s'est-il passé? Prière de décrire les opérations que vous effectuiez quand le problème s'est présenté.",
+      "reportType": "Type de message",
+      "sent": "Rapport envoyé à l'équipe Mobilus. Merci de nous rapporter les problèmes rencontrés!",
+      "suggestionType": "Suggestion"
+    },
+    "delete-db": {
+      "action": "Supprimer les données locales et se déconnecter",
+      "alert-body": "Toutes les données de l'appareil seront supprimées. Si des transitions sont en cours (nuage) elles seront perdues. Êtes vous sur de vouloir continuer ?",
+      "alert-title": "Suppression des données locales"
+    },
+    "location": {
+      "disabled": "Désactivée",
+      "disabled_warn": "L'application ne pourra pas transmettre les données de positionnement.",
+      "enabled": "Active",
+      "iosLocationSetting": "Vous devez aller dans vos paramètres pour autoriser cette permission.\nAllez Dans Réglages > Confidentialité > Service de localisation >  Mobilus",
+      "iosLocationSettingAlert": "Réglage de la localisation",
+      "iosLocationSettingConfirmation": "OK",
+      "mode": {
+        "battery_saving": "Sauvegarde de la batterie",
+        "device_only": "Appareil seulement",
+        "high_accuracy": "Haute précision",
+        "location_off": "Désactivé"
+      },
+      "requestPermission": "Autoriser",
+      "unauthorized": "Non autorisée",
+      "unauthorized_warn": "L'application ne pourra pas transmettre les données de positionnement."
+    },
+    "network": {
+      "connected": "Connecté",
+      "disconnected": "Déconnecté",
+      "type": {
+        "2g": "2G",
+        "3g": "3G",
+        "4g": "4G",
+        "cellular": "Cellulaire",
+        "ethernet": "Ethernet",
+        "none": "Aucun",
+        "unknown": "Inconnu",
+        "wifi": "Wifi"
+      },
+      "warn": "Certaines fonctionnalités pourraient être désactivés."
+    },
+    "os": {
+      "android": {
+        "unsupported": "Version d'Android non supportée. L'application ne pourra pas s'exécuter. Les versions supportées sont: {{version}}"
+      },
+      "ios": {
+        "unsupported": "Version d'iOS non supportée. L'application ne pourra pas s'exécuter. Les versions supportées sont: {{version}}"
+      }
+    },
+    "push": {
+      "available": "Active",
+      "disabled": "Désactivé",
+      "unregistered": "Non enregistré",
+      "warn": "Vous ne pourrez pas recevoir de notifications. Vous pouvez activer les push lors de la première connexion ou bien dans les options d'iOS."
+    },
+    "openTransitionsDebugButtonText": "Transitions de débogage"
+  },
+  "dialogs": {
+    "headers": {
+      "error": "ERREUR",
+      "success": "SUCCÈS"
+    }
+  },
+  "distanceUnits": {
+    "km": "km",
+    "meters": "m",
+    "miles": "mi",
+    "yards": "vg"
+  },
+  "geotrackingPlugin": {
+    "notificationText": "Services d'arrière-plan actifs",
+    "notificationTitle": "Mobilus",
+    "permission": {
+      "title": "Autoriser l'application à accéder au positionnement de cet appareil en arrière plan.",
+      "message": "Pour permettre le suivi du positionnement en arrière plan, s'il vous plait activez la permission 'Permettre tout le temps'",
+      "positiveAction": "Changer pour tout le temps",
+      "negativeAction": "Annuler"
+    }
+  },
+  "location-settings": {
+    "addLocation": "Ajouter une adresse",
+    "address": "Entrez une adresse",
+    "name": "Donnez un nom",
+    "error": "Une erreur est survenue"
+  },
+  "locker": {
+    "type": {
+      "EXPEDIBOX": "Expedibox",
+      "SIR_STEWARD": "Sir Steward"
+    }
+  },
+  "logout": {
+    "label": "Se déconnecter",
+    "now": "Quitter immédiatement",
+    "pendingTransitions": {
+      "description": "Certaines actions n'ont pas encore été transmises au serveur. Voulez-vous attendre avant de quitter?",
+      "title": "Actions non transmises au serveur"
+    },
+    "wait": "Attendre"
+  },
+  "manifest": {
+    "confirmation": {
+      "introduction": "Accepter ou rejeter les items",
+      "page": "Manifeste",
+      "title": "Vérification de la commande"
+    },
+    "empty": "Aucun item dans le manifeste",
+    "open": {
+      "button": "Vérifier le manifeste"
+    },
+    "rejected": {
+      "label": "Rejetés"
+    }
+  },
+  "messages": {
+    "and": "et",
+    "days": "jours",
+    "empty_list": "Aucune commande",
+    "errors": {
+      "connection_problem_menu_label": "Aucune connexion internet",
+      "connection_status": {
+        "no_internet": {
+          "subTitle": "Votre appareil n'est pas connecté à internet.\n\nCe mode vous permet d'utiliser l'application de façon restreinte même en l'absence d'internet.\n\nVos actions seront conservées sur votre téléphone et envoyées une fois que votre appareil retrouvera une connection à internet.\n\nVoici les actions non disponibles dans le mode hors ligne: ",
+          "title": "Mode hors ligne"
+        },
+        "no_mqtt": {
+          "subTitle": "Votre connexion internet ne vous permet pas de recevoir les nouvelles commandes automatiquement.\n\nNous tentons de rétablir la communication en mode automatique dès que votre connexion le permettra.\n\nPendant ce temps, si vous souhaitez rafraîchir la liste des commandes, vous pouvez les récupérer manuellement en utilisant le bouton:",
+          "title": "Aucune connexion aux serveurs"
+        }
+      },
+      "current_position_not_found": "Localisation de votre appareil...",
+      "error_updating_payment": "La commande {{lastName}} {{firstName}} {{reference}} n'a pas été mise à jour",
+      "generic_error": "Une erreur est survenue",
+      "geolocation_utils": {
+        "failed_obtain_current_location": "Impossible d'obtenir l'emplacement actuel",
+        "no_permission_to_access_location": "L'application n'a pas reçu l'autorisation d'accéder à l'emplacement. Veuillez activer l'autorisation requise."
+      },
+      "gps-deactivated": "Veuillez activer/autoriser la géolocalisation",
+      "http": {
+        "timeout": {
+          "short_format": "Échec de connexion au serveur.La connexion a expiré.",
+          "long_format": "Échec de connexion au serveur. La connexion a expiré. S'il vous plaît, vérifiez votre connexion à internet et réessayez."
+        },
+        "400": "Bad request",
+        "401": {
+          "short_format": "Erreur d 'authentification",
+          "long_format": "Erreur d'authentification. Veuillez vous reconnecter."
+        },
+        "403": {
+          "short_format": "Interdit.Veuillez vous assurer que vous disposez des autorisations requises.",
+          "long_format": "Interdit.Veuillez vous assurer que vous disposez des autorisations requises."
+        },
+        "404": "Not found",
+        "405": "HTTP verb not supported",
+        "500": "Erreur Interne du Serveur",
+        "unexpected": "Erreur inattendue"
+      },
+      "mqtt_problem_menu_label": "Non connecté aux serveurs",
+      "mqtt_unable_get_configuration": "Erreur fatale : impossible d'établir la connexion avec le serveur",
+      "optimization_disabled": "Votre organisation n'est pas abonnée à l'optimisation de route",
+      "optimization_limit_reached": "Vous avez atteint le maximum quotidien d'optimisation de la route",
+      "optimization_unavailable": "L'optimisation n'est pas disponible dans ce statut",
+      "quota_exceeded_error": "Erreur fatale : il n'y a plus assez d'espace libre sur l'appareil",
+      "persistent_storage": {
+        "failed_get_all_geolocation": "Échec de l'obtention de toutes les positions de géolocalisation à partir du stockage persistant.",
+        "failed_remove_geolocation": "Échec de la suppression de la position de géolocalisation car elle n'a pas été trouvée.",
+        "failed_save_all_geolocation": "Échec de l'enregistrement de toutes les positions de géolocalisation dans le stockage persistant."
+      },
+      "reordering_error": "Erreur: impossible de réorganiser les commandes",
+      "reordering_no_orders": "Il n'y a pas de commande à trier",
+      "reordering_no_position": "Impossible de trouver la position de départ, veuillez en choisir une autre ou activer le GPS",
+      "reordering_unavailable": "La réorganisation des commandes n'est pas disponible dans ce statut",
+      "sync_timeout": "Impossible de récupérer les données du serveur. Vérifiez la connexion et tentez de nouveau",
+      "unable_to_post_push_token": "Erreur fatale : impossible d'établir la connexion avec le serveur",
+      "multiple_stops_not_supported_ios": "Les trajets avec plusieurs arrêts ne sont pas supportés sur la carte Apple pour le moment.\nVeuillez sélectionner la carte Google dans vos paramètres et réessayer"
+    },
+    "hours": "h",
+    "info": {
+      "connection_status": {
+        "subTitle": "Votre appareil est connecté à l'internet et a établit une connexion avec les serveurs.",
+        "title": "Connexion établie"
+      }
+    },
+    "information": "Information",
+    "loading": "Chargement",
+    "minutes": "m",
+    "not_allowed_to_see_future_orders": "Vous n'êtes pas autorisé à voir les commandes futures",
+    "order": {
+      "label": "Commande",
+      "order_has_changed": "La commande a changé de statut",
+      "order_not_available": "La commande n'est plus disponible."
+    },
+    "processing": "Traitement...",
+    "locationDisabled": {
+      "alert_title": "Localisation désactivée",
+      "device_localisation_not_enable": "La localisation est désactivée. Afin d'utiliser l'application au maximum, veuillez activer localisation à partir des paramètres de votre appareil",
+      "ok_button": "Ok"
+    }
+  },
+  "notifications": {
+    "clientInfos": "Client: {{clientFullName}}\n",
+    "orderNotFound": "La commande associée n'est plus disponible",
+    "unreadNotification": "Seulement les notifications lues peuvent être supprimées",
+    "update_unsuccessful": "La mise a jour des notification(s) n'a pas été effectuée"
+  },
+  "optimizeOrders": {
+    "constraints": "Contraintes",
+    "currentLocation": "Position actuelle",
+    "currentRoute": "Route actuelle",
+    "endPosition": "Point d'arrivée",
+    "firstStop": "Point de départ",
+    "new_optimization": "Nouvelle optimisation",
+    "noLocation": "Sans importance",
+    "optimize": "Optimiser",
+    "options": "Options",
+    "routeHasBeenOptimized": "Route calculée : {{stops}} arrêts, {{distance}}, durée {{travelTime}}",
+    "startTime": "Heure de départ",
+    "title": "Optimisation de la route"
+  },
+  "options": {
+    "actions": {
+      "forceGet": "Forcer la récupération",
+      "forceSync": "Forcer la synchronisation",
+      "label": "Actions",
+      "reorderMode": "Ordonnancement",
+      "selectMany": "Sélection multiple"
+    },
+    "activeFilters": {
+      "allFields": "Recherche textuelle",
+      "clear": "Annuler",
+      "label": "Liste partielle: filtres activés",
+      "provider": "Fournisseur",
+      "tagFilter": "Étiquettes",
+      "withTimeConstraint": "Contrainte de temps"
+    },
+    "displayType": {
+      "label": "Affichage simplifié"
+    },
+    "displayProviderFooter": {
+      "label": "Afficher les fournisseurs lorsqu'il n'y a pas de commandes"
+    },
+    "filter": {
+      "all": "Tous",
+      "none": "Aucun",
+      "provider": "Fournisseur",
+      "tags": "Étiquette",
+      "withTimeConstraint": "Contrainte de temps"
+    },
+    "other": {
+      "label": "Autres options"
+    },
+    "search": {
+      "allFields": "Texte à chercher",
+      "label": "Recherche"
+    },
+    "sort": {
+      "avgtime": "Heure habituelle d'arrivé",
+      "distance": "Distance",
+      "dueTime": "Délai écoulé",
+      "label": "Tri",
+      "lastName": "Nom de famille",
+      "rank": "Séquence de livraison"
+    },
+    "title": "Filtres",
+    "orderReferenceDisplay": {
+      "label": "Afficher la référence sur la commande"
+    }
+  },
+  "order": {
+    "amount": {
+      "label": "Montant à collecter"
+    },
+    "averageDeliveryMoment": {
+      "label": "Heure habituelle d'arrivée"
+    },
+    "calculatedArrivalTime": {
+      "label": "Heure d'arrivée estimée"
+    },
+    "client": {
+      "label": "Client",
+      "notes": {
+        "label": "Notes client"
+      }
+    },
+    "deliveryAddress": {
+      "label": "Adresse de livraison"
+    },
+    "deliveryRecipient": {
+      "identity": "Nom",
+      "relation": "Relation / Fonction",
+      "relationMore": "Relation / Fonction"
+    },
+    "desiredArrivalTime": "Moment de passage",
+    "notes": {
+      "label": "Notes commande"
+    },
+    "reference": {
+      "label": "Commande"
+    },
+    "tags": {
+      "client": {
+        "label": "Étiquettes client"
+      },
+      "order": {
+        "label": "Étiquettes commande"
+      }
+    }
+  },
+  "pages": {
+    "location-disclosure": {
+      "title": "Utilisation de votre position",
+      "message1": "L'application Mobilus collecte des données de positionnement afin de permettre d'effectuer un suivi de l'exécution des tâches. Ces données de positionnement sont mises à disposition du répartiteur de votre organisation pour lui permettre d'effectuer ses opérations : suivi en temps réel de votre position sur une carte, suivi du travail en cours, historique des déplacements.).",
+      "message2": "Les données de positionnement sont collectées même lorsque l'application est fermée ou non utilisée comme par exemple en arrière plan. Les données de positionnement ne sont pas collectées lorsque vous vous déconnectez de l'application.",
+      "stop-showing": "Ne plus afficher"
+    },
+    "accounting-reports": {
+      "customer": "Client",
+      "delivery_message": "Message livraison",
+      "drugstore": "Organisation",
+      "hauler": "Livreur",
+      "number_orders": "Nombre de commandes",
+      "order_notes": "Notes commande",
+      "orders_cancelled": "Commandes annulées",
+      "orders_delivered": "Commandes livrées",
+      "payment_method": "Mode de paiement",
+      "payment_report": "Récapitulatif de paiements",
+      "prepared_by": "Préparé par",
+      "reference": "Référence",
+      "title": "Rapports comptables",
+      "total_asked_amount": "Montant demandé",
+      "total_collected_amount": "Montant collecté"
+    },
+    "advanced": "Paramètres avancés",
+    "drawer-menu": {
+      "advanced": "Avancés",
+      "bug_report": "Rapport d'incident",
+      "diagnostic": "Diagnostique",
+      "exitApp": "Fermer l'application",
+      "filters": "Filtres",
+      "hauler_employees": "Service de livraison",
+      "help": "Aide",
+      "history": "Historique",
+      "native-map": "Carte",
+      "notification-center": "Notifications",
+      "orders": "Commandes",
+      "reports": "Rapports",
+      "settings": "Paramètres"
+    },
+    "driver-owned-info": {
+      "after": "Après",
+      "and": "Et",
+      "before": "Avant",
+      "between": "Entre",
+      "notes": "Notes de livraison",
+      "notes_instructions": "Taper pour inscrire vos notes",
+      "timeConstraint": "Préférence de passage"
+    },
+    "help": {
+      "intro_seen": "Rejouer l'introduction",
+      "title": "Aide",
+      "call_us": "Appeler le support technique",
+      "text_us": "Envoyer un SMS au support technique",
+      "online_support": "Support en ligne"
+    },
+    "login": {
+      "connect": "Connexion",
+      "fingerprintLogin": "Connexion avec empreinte digitale",
+      "faceLogin": "Connexion avec reconnaissance faciale",
+      "commonLogin": "Connexion biométrique",
+      "endpoint": "Connexion à l'adresse",
+      "errors": {
+        "bad_credentials": "Mauvais nom d'utilisateur ou mot de passe.",
+        "server_unavailable": "Impossible de contacter le serveur.",
+        "biometricExpired": "Connexion biométrique expirée"
+      },
+      "messages": {
+        "notConnected": "Aucune connexion internet",
+        "welcome": "Bienvenue."
+      },
+      "password": "Mot de passe",
+      "username": "Usager",
+      "validation": {
+        "password": {
+          "required": "Le mot de passe est requis."
+        },
+        "username": {
+          "required": "Le nom d'utilisateur est requis."
+        }
+      },
+      "version": "Version"
+    },
+    "map": {
+      "filter": {
+        "all": "Tous",
+        "label": "Statut(s) à afficher"
+      },
+      "legend": "Légende",
+      "provider": "Fournisseur",
+      "settings": {
+        "title": "Réglage de la carte"
+      },
+      "urgentOrders": "Commande urgente",
+      "orderWithTimeConstraint": "Commande avec contrainte de temps",
+      "noSequenceNumberAlert": {
+        "header": "Numéros de séquence manquants",
+        "message": "Certaines commandes n'ont pas de numéro de séquence. Réorganisez vos commandes ou optimisez votre itinéraire pour avoir une direction avec toutes les commandes ou continuer avec la liste actuelle.",
+        "cancel": "Annuler",
+        "continue": "Continuer"
+      },
+      "tooManyWaypoints": "Nombre de commandes maximale à selectionner a été atteint. Seules les 10 premières commandes seront affichées"
+    },
+    "offline-info": {
+      "button-text": "Détail",
+      "details": "Votre connexion internet est présentement non fonctionnelle. Certaines opérations sont désactivées.",
+      "offline_mode": "Mode hors ligne",
+      "reconnecting": "Reconnexion",
+      "title": "Hors connexion"
+    },
+    "order-detail": {
+      "apartment_number": "Appartement",
+      "apple_maps": "Apple Map",
+      "waze_maps": "Waze",
+      "apps_to_select": "Sélectionnez l'application que vous souhaitez utiliser",
+      "client_external_reference": "Référence du client:",
+      "deliveryRecipient": "Récipiendaire",
+      "driver_notes": "Informations supplémentaires de livraison",
+      "google_maps": "Google Map",
+      "order_detail_alert_cancel": "Annuler",
+      "order_detail_alert_ok": "OK",
+      "order_external_reference": "Référence de la commande:",
+      "payment_info": "Information de paiement"
+    },
+    "order-detail-tabs": {
+      "order_detail_title": "Commande",
+      "order_history_title": "Chronologie",
+      "order_manifest_title": "Manifeste"
+    },
+    "password-change-modal": {
+      "changePassword": "Changer le mot de passe",
+      "enterCurrentPassword": "Saisissez le mot de passe actuel",
+      "enterNewPassword": "Entrez un nouveau mot de passe",
+      "repeatNewPassword": "Répétez le mot de passe",
+      "passwordLengthWarning": "Le nouveau mot de passe doit contenir au moins 6 caractères",
+      "passwordNotMatching": "Les mots de passe ne correspondent pas.",
+      "passwordChangeError": "Une erreur est survenue lors du changement de mot de passe, veuillez réessayer"
+    },
+    "position": "Position manuelle",
+    "reorganization": {
+      "currentPosition": "Position courante",
+      "group": "Réorganisation",
+      "positionSelect": "Position de départ:",
+      "timeConstraint": "Respecter les moments de passage",
+      "title": "Validation"
+    },
+    "report-forms": {
+      "accounting-reports": {
+        "title": "Caisse"
+      },
+      "all": "Tous",
+      "button": "Générer un rapport",
+      "drugstores": "Organisation(s)",
+      "end_date": "Date/heure fin",
+      "extras": "Extras",
+      "haulers": "Livreur(s)",
+      "includeTagsReport": "Inclure le rapport d'étiquettes",
+      "none": "Aucun",
+      "report_date": "Date du rapport",
+      "report_type": "Type de rapport",
+      "start_date": "Date/heure début",
+      "tags": "Étiquettes",
+      "title": "Rapports",
+      "trips-reports": {
+        "excludeAddressCopies": "Exclure l'appartement des adresses identiques",
+        "extraKm": "Supplément éloignement (km)",
+        "title": "Déplacements"
+      }
+    },
+    "settings": {
+      "DMY": "jj-mm-aaaa",
+      "MDY": "mm-jj-aaaa",
+      "YMD": "aaaa-mm-jj",
+      "apple_maps": "Apple Map",
+      "waze_maps": "Waze",
+      "biometric": "Connexion via ",
+      "biometric.face": "reconnaissance faciale ",
+      "biometric.fingerprint": "empreinte digitale ",
+      "biometric.finger": "empreinte digitale ",
+      "biometric.common": "biometric ",
+      "biometric.remove": "Supprimer la connexion biométrique ?",
+      "buttons": {
+        "changePin": "Changer mon NIP",
+        "filter": "Filtres",
+        "grouping": "Regroupement par organisation",
+        "map": "Carte",
+        "multipleSelection": "Sélection multiple",
+        "optimization": "Optimisation de la route de livraison",
+        "reordering": "Réordonancer les commandes",
+        "signaturePin": "Code NIP après la signature",
+        "sorting": "Tri des commandes"
+      },
+      "confirmPin": "Confirmer votre NIP",
+      "createPin": "Creer un NIP",
+      "dateFormat": "Format de date",
+      "display": "Affichage",
+      "background-geolocation-disclosure": "En activant la géolocalisation, l'application pourra utiliser votre position en tout temps. C'est pour afficher ces positions à votre organisation et permettre de déterminer où ont été faites les diverses actions (prise en charge, livraison, photos, etc.).",
+      "distanceUnit": "Unités de distance",
+      "editPin": "Modifier votre NIP",
+      "enterNewPin": "Entrer votre nouveau NIP",
+      "enterPin": "Entrer votre NIP",
+      "geotracking": "Géolocalisation",
+      "google_maps": "Google Map",
+      "hourFormat": "Format de l'heure",
+      "hourFormatMilitary": "24H",
+      "hourFormatStandard": "12H",
+      "keepScreenOn": "Prévenir la mise en veille quand l'application est affichée",
+      "kilometersAndMeters": "Système métrique (km, m)",
+      "languages-label": "Langue",
+      "locations": "Adresses",
+      "main": "Fonctionnalités",
+      "map_option": "Option de carte",
+      "map_query_option": "Critère recherche carte",
+      "map_search_by_address": "Rechercher par adresse",
+      "map_search_by_address_and_coordinates": "Rechercher par adresse et latitude/longitude",
+      "map_search_by_coordinates": "Rechercher par latitude/longitude",
+      "milesAndYards": "Système impérial (mile, verge)",
+      "mismatchPin": "Vos NIP ne sont pas identiques",
+      "parameters-label": "Configuration",
+      "providers-label": "Abonnements",
+      "signatureLockedOnLandscape": "Verrouiller en mode paysage à la signature",
+      "sequenceOnSelect": "Conserver l'ordre de prise en charge",
+      "showAverageDeliveryMoment": "Afficher l'heure habituelle d'arrivée",
+      "wrongPin": "NIP incorrect",
+      "security": "Sécurité",
+      "changeLoginPassword": "Changer le mot de passe de connexion",
+      "colorModeOption": "Thème de couleurs",
+      "colorMode": {
+        "dark": "Sombre",
+        "light": "Clair",
+        "auto": "Automatique"
+      },
+      "displayDelayCounter": "Afficher le délai sur les commandes"
+    },
+    "trips-reports": {
+      "call_time": "Heure appel",
+      "customer": "Client",
+      "delivery_copies": "Livrée a la même adresse au même moment par le même livreur\n",
+      "delivery_hauler": "Livreur",
+      "delivery_message": "Message passage",
+      "delivery_period": "Moment de passage",
+      "delivery_pickup": "livraisons/cueillettes",
+      "delivery_time": "Heure de passage",
+      "departure_time": "Heure départ",
+      "distance_drugstore": "Distance ({{unit}})",
+      "drugstore": "Organisation",
+      "extra_distance": "Suppléments distance",
+      "extra_distance_km": "Suppléments éloignements ({{unit}})",
+      "extra_distance_orders": "Suppléments éloignements (cmd)",
+      "identical_address": "Adresses identiques",
+      "kilometer_label": "Km",
+      "legend": "Légende",
+      "number": "Nombre",
+      "orders_label": "Commandes",
+      "prep_time": "Heure prep",
+      "prepared_by": "Préparé par",
+      "recaps": "Récapitulatifs",
+      "reference": "Référence",
+      "title": "Rapport des déplacements",
+      "total_service_time": "Temps total de service (h)",
+      "travels": "Déplacements",
+      "urgent_orders": "Commandes urgentes"
+    },
+    "biometric-opt-in": {
+      "title": "Connexion biométrique",
+      "method.fingerprint": "Lors de votre prochaine connexion à l'apploication vous pourrez utiliser le lecteur d'empreinte digitale de votre appareil.",
+      "method.face": "Lors de votre prochaine connexion à l'apploication vous pourrez utiliser la reconnaissance faciale de votre appareil.",
+      "method.common": "Lors de votre prochaine connexion à l'apploication vous pourrez utiliser l'authentification biométrique.",
+      "method.biometric": "Lors de votre prochaine connexion à l'apploication vous pourrez utiliser l'authentification biométrique.",
+      "success": "La connexion biométrique a été configurée.",
+      "stop-showing": "Ne plus me proposer",
+      "activate": "Activer"
+    },
+    "biometric": {
+      "show.title": "Biometric sign on",
+      "show.description": "Sign in using biometric authentication"
+    },
+    "transitions-debug": {
+      "header": "Transitions en attente",
+      "labels": {
+        "order-number": "Numéro de commande",
+        "order-client-name": "Nom du client de la commande",
+        "order-address": "Adresse de commande",
+        "transition-name": "Nom de la transition",
+        "number-of-attachments": "Nombre de pièces jointes",
+        "number-of-retries": "Nombre de tentatives",
+        "number-of-timeouts": "Nombre de délais d 'attente",
+        "retry": "RÉESSAYEZ"
+      },
+      "messages": {
+        "no-pending-transactions-text": "Aucune transition en attente",
+        "manual-transition-failed-error-message": "Échec de la transition",
+        "manual-transition-succeeded-message": "Transition réussie",
+        "failed-get-pending-transitions-error-message": "Impossible d 'obtenir les transitions en attente",
+        "failed-get-pending-transition-order-error-message": "Échec de l'obtention de la commande pour une transition en attente"
+      }
+    },
+    "transition-detail-debug": {
+      "header": "Journaux de transition en attente",
+      "labels": {
+        "date": "Date",
+        "order-number": "Numéro de commande"
+      },
+      "messages": {
+        "no-transaction-detail-text": "Aucun journal de transition en attente"
+      }
+    },
+    "reloader": {
+      "prompt-to-reload": "Veuillez cliquer pour recharger la vue",
+      "prompt-to-navigate-back": "ou revenir en arrière"
+    }
+  },
+  "picture": {
+    "take": {
+      "button": "Ajouter une photo"
+    }
+  },
+  "policies": {
+    "acknowledgement": "En utilisant cette application j'accepte les termes et conditions disponibles à l'adresse suivante",
+    "lastUpdate": "Dernière mise à jour",
+    "privacyPolicy": "Politique de protection de la vie privée",
+    "termsAndConditions": "Termes et conditions",
+    "title": "Utilisation et vie privée"
+  },
+  "reason": {
+    "absent": "Client absent",
+    "addressNotFound": "Adresse introuvable",
+    "other": "Autre",
+    "packageAbsent": "Paquet absent"
+  },
+  "routeSummary": {
+    "distance": "Distance",
+    "duration": "Durée",
+    "startAt": "Heure de départ",
+    "stopCount": "Arrêts",
+    "travelTime": "min",
+    "withTimeConstraints": "Respect des contraintes",
+    "summary": "Itinéraire actuel : Durée du trajet est de {{travelTime}} pour une distance de {{distance}}",
+    "directionsForOptimizedRoute": "Ouvrir la carte pour les directions"
+  },
+  "security": {
+    "unsecuredDevice": {
+      "subTitle": "Prière de sécuriser l'appareil avant de continuer",
+      "title": "Appareil non sécurisé"
+    }
+  },
+  "selectRecipient": {
+    "instruction": "Liste des individus autorisés",
+    "title": "Choisir un individu"
+  },
+  "signature": {
+    "confirm": {
+      "text": "J'accepte la signature ci-dessus"
+    },
+    "instructions": "Utiliser votre doigt ou bien un stylet pour entrer votre signature ci-dessous.",
+    "open": {
+      "button": "Ajouter une signature"
+    },
+    "title": "Signature"
+  },
+  "tag": {
+    "label": {
+      "callbeforedelivery": "Appeler",
+      "checkaccepted": "Chèque",
+      "frigo": "Frigo",
+      "plancher": "Plancher",
+      "signaturemandatoryclient": "Signature obligatoire",
+      "signaturemandatoryorder": "Signature obligatoire",
+      "urgent": "Urgent"
+    },
+    "label_long": {
+      "callbeforedelivery": "Appeler avant livraison",
+      "checkaccepted": "Chèque accepté",
+      "frigo": "Frigo",
+      "plancher": "Plancher",
+      "signaturemandatoryclient": "Signature obligatoire",
+      "signaturemandatoryorder": "Signature obligatoire",
+      "urgent": "Urgent"
+    }
+  },
+  "title": "Mobilus",
+  "transition": {
+    "actions": {
+      "selectComment": "Commentaire",
+      "selectHauler": "Transférer à",
+      "selectInterlocutor": "Interlocuteur",
+      "selectPayment": "Paiement",
+      "selectPicture": "Photo",
+      "selectReason": "Explication",
+      "selectReasonChoicesOther": "Explication",
+      "selectSignature": "Signature"
+    },
+    "amount": {
+      "explanation": "(Toucher pour même montant)",
+      "label": "Montant demandé"
+    },
+    "collectedAmount": {
+      "label": "Montant collecté",
+      "placeholder": "$ montant"
+    },
+    "comment": {
+      "label": "Commentaire",
+      "placeholder": "Entrer un commentaire"
+    },
+    "doorCode": {
+      "label": "Code d'ouverture de la porte"
+    },
+    "hauler": {
+      "header": "Transférer la commande à:"
+    },
+    "paymentMode": {
+      "select": "Choisir le mode de paiement",
+      "selected": "Mode de paiement"
+    },
+    "paymentType": {
+      "cash": "Comptant",
+      "check": "Chèque",
+      "client_account": "Compte client",
+      "credit": "Débit/Crédit",
+      "credit_files": "Crédit préautorisé",
+      "none": "Aucun paiement collecté",
+      "select": "Choisir le mode de paiement",
+      "debit": "Débit",
+      "e_transfer": "Virement électronique",
+      "credit_visa": "Carte de crédit VISA",
+      "credit_mastercard": "Carte de crédit MasterCard",
+      "credit_amex": "Carte de crédit AMEX"
+    },
+    "reason": {
+      "label": "Raison",
+      "placeholder": "Entrer une raison"
+    },
+    "recipientIdentity": {
+      "label": "Nom du récipiendaire"
+    },
+    "relationWithClient": {
+      "label": "Relation",
+      "other": "Préciser la relation",
+      "receptionGroup": {
+        "authorizedRecipients": "Ind. autorisé",
+        "label": "Réception de la commande par",
+        "other": "Autre",
+        "self": "Client.e"
+      },
+      "relations": {
+        "familyChild": "Enfant majeur",
+        "friend": "Ami.e",
+        "nurse": "Infirmier.e",
+        "other": "Autre",
+        "parent": "Parent (père / mère)",
+        "reception": "Accueil / Réception",
+        "self": "Client.e",
+        "spouse": "Conjoint.e"
+      }
+    },
+    "total": "Total",
+    "unbalancedPayment": {
+      "label": "Justifier la différence"
+    },
+    "warning": {
+      "distance": {
+        "multiple": "Vous tentez d'effectuer une action à plus de {{distance}} d'au moins une des adresses cibles. Êtes-vous sûr de vouloir continuer?",
+        "subTitle": "Vous tentez d'effectuer une action à plus de {{distance}} de l'adresse cible. Êtes-vous sûr de vouloir continuer?",
+        "title": "Hors cible"
+      }
+    }
+  },
+  "transitions": {
+    "titles": {
+      "BACK_PROVIDER": "Retour en magasin",
+      "BACK_TO_PROVIDER": "Retour en magasin",
+      "CUSTOMER_DELIVERY": "Livraison de la commande",
+      "PAYMENT_UPDATE": "Édition",
+      "PICKUP": "Cueillette",
+      "TRANSFER_TO_HAULER": "Transfert de commande",
+      "UNABLE_TO_COMPLETE_DELIVERY": "Impossible de livrer",
+      "UNABLE_TO_PICKUP": "Impossible de cueillir",
+      "batch": "Traitement en lot",
+      "single": "Traitement individuel"
+    },
+    "messages": {
+      "transition-has-been-declined-error-message": "La transition a été refusée. Veuillez vérifier les journaux de sentinelle",
+      "reached-max-transition-retry-error-message": "Nombre maximal de tentatives de demande de transition atteint. Veuillez vérifier les journaux de sentinelle",
+      "transition-failed-fallthrough-treatment-error-message": "La transition a échoué au traitement de remplacement, peut nécessiter une inspection.Veuillez vérifier les journaux de sentinelle"
+    }
+  },
+  "walkthrough": {
+    "cancel": "Fermer",
+    "confirmInstruction": "Voulez-vous afficher les explications des boutons de l'application?",
+    "confirmTitle": "Introduction",
+    "doneLabel": "Fermer",
+    "nextLabel": "Suivant >",
+    "play": "Afficher",
+    "prevLabel": "< Précédent",
+    "skipLabel": "Ignorer",
+    "v2_4_x": {
+      "availableInHelp": "<strong>Disponible en tout temps</strong><br /><br />Vous pouvez rejouer l'introduction en tout temps en passant par l'aide du menu de gauche.",
+      "byStatus": "<strong>Action par statut</strong><br /><br />Les boutons suivants:<ul><li>Grouper</li><li>Tri des commandes</li><li>Rechercher et filtrer</li></ul> n'affectent désormais que le statut en cours.",
+      "filter": "<strong>Rechercher et filtrer</strong><br /><br />L'outil <em>recherche</em> permet de trouver une commande par le nom ou l'adresse.<br /><br />Le filtre <em>contrainte de temps</em> permet d'afficher que les commandes qui ont une contrainte de temps.<br /><br />Le filtre par <em>étiquettes</em> permet d'afficher toutes les commandes qui ont au moins une des étiquettes sélectionnées.",
+      "grouping": "<strong>Grouper</strong><br /><br />Permet d'activer ou désactiver le regroupement des commandes par organisation ou par type (livraison / cueillette).",
+      "intro": "Les actions quotidiennes sont maintenant facilement accessibles.<br /><br />Vous pouvez cacher les boutons que vous n'utilisez pas en passant par les <em>paramètres</em> de l'application dans le menu de gauche.",
+      "map": "<strong>Affichage de la vue carte</strong><br /><br />Permet de voir la répartition des commandes selon leur statut, la position de l'organisation et votre position en un clin d'oeil.<br /><br />Vous pouvez effectuer les mêmes opérations à partir de cette vue que dans la vue en liste.",
+      "multipleSelection": "<strong>Sélection multiple</strong><br /><br />Permet de sélectionner plus d'une commande à la fois pour les traiter en lot.",
+      "optimize": "<strong>Optimiser la route de livraison</strong><br /><br />Demande au serveur de calculer la séquence optimale des livraisons.<br /><br />Cette action n'est accessible que si votre organisation en a fait la demande explicite.",
+      "reorder": "<strong>Réordonner la séquence des livraisons</strong><br /><br />Permet d'indiquer et de modifier l'ordre dans lequel vous effectuerez vos livraisons.<img src=\"assets/images/reorder_fr.gif\" style=\"display: block; margin-left: auto; margin-right: auto; width: 75%; height: 75%\">",
+      "sorting": "<strong>Tri des commandes</strong><br /><br />Permet l'affichage des commandes selon l'un des tris suivant:<ul><li>Nom de famille</li><li>Séquence de livraison</li><li>Distance (à vol d'oiseau à partir de votre position actuelle)</li></ul>"
+    }
+  },
+  "workflows": {
+    "abbrev": {
+      "delivery": "L",
+      "pickup": "C",
+      "recurrence": "R"
+    },
+    "events": {
+      "back_provider": "Déposer",
+      "back_to_delivery": "En route",
+      "back_to_provider": "Retourner",
+      "cancelled": "Annulé",
+      "customer_delivery": "Livré",
+      "edit_payment": "Éditer",
+      "order_created": "Initialisée",
+      "pickup": "Collecter",
+      "send_back_ready_for_haulage": "Remettre",
+      "take_in_charge": "Prendre en charge",
+      "transfer_to_hauler": "Transférer",
+      "unable_to_complete_delivery": "Non livré",
+      "unable_to_pickup": "Collecte impossible"
+    },
+    "names": {
+      "DELIVERY": "Livraison",
+      "PICKUP": "Cueillette"
+    },
+    "status": {
+      "cancelled": "Annulé",
+      "completed": "Complété",
+      "delivered": "Livré",
+      "in_preparation": "En préparation",
+      "not_activated": "Non activé",
+      "on_the_way_to_customer": "En route client",
+      "on_the_way_to_customer_abv": "En route",
+      "on_the_way_to_provider": "Retour",
+      "on_the_way_to_provider_abv": "Retour",
+      "order_created": "Initialisée",
+      "ready_for_haulage": "Prêt à livrer",
+      "ready_for_haulage_abv": "Prêt",
+      "to_process_provider": "À traiter",
+      "to_process_provider_error": "À traiter",
+      "to_process_provider_recurring": "À traiter"
+    }
+  },
+  "userProfile": {
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "phoneNumber": "Numéro de téléphone",
+    "email": "Courriel",
+    "profile": "Profile",
+    "edit": "Modifier",
+    "save": "Sauvegarder"
+  }
+}

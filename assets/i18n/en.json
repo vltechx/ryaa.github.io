@@ -1,0 +1,963 @@
+{
+  "actions": {
+    "accept": "Accept",
+    "cancel": "Cancel",
+    "close": "Close",
+    "continue": "Continue",
+    "erase": "Erase",
+    "ok": "OK",
+    "save": "Save",
+    "seen": "Confirm",
+    "selectOrder": "Select an order",
+    "select_all": "All",
+    "view": "View"
+  },
+  "awaitingTransition": {
+    "explanation": "Some transitions have not been sent to the server. Please wait for the indicator to disappear before login out or closing your device."
+  },
+  "compass": {
+    "E": "E",
+    "ENE": "ENE",
+    "ESE": "ESE",
+    "N": "N",
+    "NE": "NE",
+    "NNE": "NNE",
+    "NNW": "NNW",
+    "NW": "NW",
+    "S": "S",
+    "SE": "SE",
+    "SSE": "SSE",
+    "SSW": "SSW",
+    "SW": "SW",
+    "W": "W",
+    "WNW": "WNW",
+    "WSW": "WSW"
+  },
+  "countdown": {
+    "prefix": "Delay"
+  },
+  "deploy": {
+    "channels": {
+      "beta": "beta",
+      "blue": "blue",
+      "green": "green",
+      "master": "master",
+      "production": "production",
+      "capacitor": "capacitor",
+      "purple": "purple",
+      "red": "red",
+      "testing": "testing",
+      "yellow": "yellow"
+    },
+    "checkAppStore": "You are using an outdated version, please go to the Apple Store to update it",
+    "checkForUpdate": "Check",
+    "checkPlayStore": "You are using an outdated version, please go to the Google Play Store to update it",
+    "downloadPrefix": "Downloading",
+    "extractPrefix": "Extracting",
+    "localChannelReset": {
+      "message": "This will reset the configured local deployment channel, are you sure you want to do that?",
+      "title": "Reset local deployment channel"
+    },
+    "networkProblem": "Not updated, please try again later",
+    "newVersionAvailable": "New version available",
+    "newVersionInstall": "Install",
+    "newVersionInstallLong": "Install new version",
+    "openAppStore": "Open",
+    "versionIsOutdated": "Your version is out of date"
+  },
+  "desiredArrival": {
+    "after": "After {{ end }}",
+    "before": "Before {{ start }}",
+    "between": "Between {{ start }} and {{ end }}"
+  },
+  "diagnostic": {
+    "camera": {
+      "available": "Active",
+      "iosCameraSetting": "You will have to go into your settings to authorize this permission.\nGo to Settings > Privacy > Camera > Mobilus",
+      "iosCameraSettingAlert": "Camera setting",
+      "iosCameraSettingConfirmation": "OK",
+      "requestPermission": "Authorize",
+      "unauthorized": "Unauthorized",
+      "unavailable": "Inactive",
+      "warn": "You will not be able to take pictures."
+    },
+    "debugReport": {
+      "action": "Send",
+      "bugType": "Problem",
+      "contact": "Email or phone",
+      "contactPhoneNumber": "Phone Number",
+      "contactEmail": "Email",
+      "contactTitle": "How can we contact you",
+      "description": "Send a bug report to Mobilus",
+      "descriptionTitle": "What problem did you encounter, after what action(s)?",
+      "issue_description": "Describe the problem",
+      "reportMessageInstructions": "What happened? Please describe what action you were performing when the error occurred.",
+      "reportType": "Message Type",
+      "sent": "Report sent to the Mobilus technical team. Thank you for reporting the problems you encounter!",
+      "suggestionType": "Suggestion"
+    },
+    "delete-db": {
+      "action": "Delete local data and log out",
+      "alert-body": "All local data will be deleted including any pending transition (cloud icon). Are you sure you want to continue?",
+      "alert-title": "Delete all local data"
+    },
+    "location": {
+      "disabled": "Deactivated",
+      "disabled_warn": "The application will not be able to send positioning data.",
+      "enabled": "Active",
+      "iosLocationSetting": "You will have to go into your settings to authorize this permission.\nGo to Settings > Privacy > Location Services > Mobilus",
+      "iosLocationSettingAlert": "Location setting",
+      "iosLocationSettingConfirmation": "OK",
+      "mode": {
+        "battery_saving": "Battery Saving",
+        "device_only": "Device Only",
+        "high_accuracy": "High Accuracy",
+        "location_off": "Location Off"
+      },
+      "requestPermission": "Authorize",
+      "unauthorized": "Unauthorized",
+      "unauthorized_warn": "The application will not be able to send positioning data."
+    },
+    "network": {
+      "connected": "Connected",
+      "disconnected": "Disconnected",
+      "type": {
+        "2g": "2G",
+        "3g": "3G",
+        "4g": "4G",
+        "cellular": "Cellular",
+        "ethernet": "Ethernet",
+        "none": "None",
+        "unknown": "Unknown",
+        "wifi": "WiFi"
+      },
+      "warn": "Some features may be deactivated."
+    },
+    "os": {
+      "android": {
+        "unsupported": "Your Android version is unsupported. The application will not perform correctly. The supported versions are: {{version}}"
+      },
+      "ios": {
+        "unsupported": "Your iOS version is unsupported. The application will not perform correctly. The supported versions are: {{version}}"
+      }
+    },
+    "push": {
+      "available": "Active",
+      "disabled": "Disabled",
+      "unregistered": "Unregistered",
+      "warn": "You will not be able to receive push notifications. You can activate push notifications on your first connection or in iOS options."
+    },
+    "openTransitionsDebugButtonText": "Debug Transitions"
+  },
+  "dialogs": {
+    "headers": {
+      "error": "ERROR",
+      "success": "SUCCESS"
+    }
+  },
+  "distanceUnits": {
+    "km": "km",
+    "meters": "m",
+    "miles": "mi",
+    "yards": "yd"
+  },
+  "geotrackingPlugin": {
+    "notificationText": "Background services active",
+    "notificationTitle": "Mobilus",
+    "permission": {
+      "title": "Allow access to this device's location in the background?",
+      "message": "In order to allow tracking of your position in the background, please enable 'Allow all the time' permission",
+      "positiveAction": "Change to Allow all the time",
+      "negativeAction": "Cancel"
+    }
+  },
+  "location-settings": {
+    "addLocation": "Add an address",
+    "address": "Enter an Address",
+    "name": "Enter a Name",
+    "error": "An error has occured"
+  },
+  "locker": {
+    "type": {
+      "EXPEDIBOX": "Expedibox",
+      "SIR_STEWARD": "Sir Steward"
+    }
+  },
+  "logout": {
+    "label": "Sign out",
+    "now": "Quit now",
+    "pendingTransitions": {
+      "description": "Some actions are not uploaded to the server yet. Do you want to wait for them?",
+      "title": "Actions not synchronized with the server"
+    },
+    "wait": "Wait"
+  },
+  "manifest": {
+    "confirmation": {
+      "introduction": "Accept or reject items",
+      "page": "Manifest",
+      "title": "Order verification"
+    },
+    "empty": "No items in manifest",
+    "open": {
+      "button": "Check Manifest"
+    },
+    "rejected": {
+      "label": "Rejected"
+    }
+  },
+  "messages": {
+    "and": "and",
+    "days": "days",
+    "empty_list": "No order",
+    "errors": {
+      "connection_problem_menu_label": "No internet connection available",
+      "connection_status": {
+        "no_internet": {
+          "subTitle": "Your device is not connected to the internet.\n\nThis mode allows you to use the application without internet, but with some restrictions.\n\nYour actions will be kept on your phone and sent when it recovers a connection to the internet.\n\nHere is a list of actions that will not be available while the device is in offline mode:",
+          "title": "Offline mode"
+        },
+        "no_mqtt": {
+          "subTitle": "Your internet connection does not allow you to receive new orders automatically.\n\nWe will try to re-establish the automatic communication mode as soon as your connection will allow.\n\nMeanwhile, if you wish to refresh the list of orders, you can recover them manually by using the button:",
+          "title": "Connection to server not established"
+        }
+      },
+      "current_position_not_found": "Locating your device...",
+      "error_updating_payment": "The order {{lastName}} {{firstName}} {{reference}} hasn't been updated",
+      "generic_error": "An error occurred",
+      "geolocation_utils": {
+        "failed_obtain_current_location": "Failed to obtain current location",
+        "no_permission_to_access_location": "The application has not been granted permission to access location. Please enable the required permission."
+      },
+      "gps-deactivated": "Please activate/authorize the geolocation",
+      "http": {
+        "timeout": {
+          "short_format": "Failed to connect to server. Connection timed out.",
+          "long_format": "Failed to connect to server. Connection timed out. Please check your internet connection and try again."
+        },
+        "400": "Bad request",
+        "401": {
+          "short_format": "Authentication Error",
+          "long_format": "Authentication Error. Please re-login."
+        },
+        "403": {
+          "short_format": "Forbidden. Please make sure you have the required permissions.",
+          "long_format": "Forbidden. Please make sure you have the required permissions."
+        },
+        "404": "Not found",
+        "405": "HTTP verb not supported",
+        "500": "Internal Server Error",
+        "unexpected": "Unexpected error"
+      },
+      "mqtt_problem_menu_label": "Not connected to the servers",
+      "mqtt_unable_get_configuration": "Fatal error : unable to connect to the server",
+      "optimization_disabled": "Your organization is not subscribed to route optimization",
+      "optimization_limit_reached": "You have reached the daily limit of route optimizations",
+      "optimization_unavailable": "Optimization is unavailable in this status",
+      "quota_exceeded_error": "Fatal error : not enough space left on the device",
+      "persistent_storage": {
+        "failed_get_all_geolocation": "Failed to get all geolocation positions from the persistent storage.",
+        "failed_remove_geolocation": "Failed to remove geolocation position because it has not been found.",
+        "failed_save_all_geolocation": "Failed to save all geolocation positions into the persistent storage."
+      },
+      "reordering_error": "Error: unable to reorganize orders",
+      "reordering_no_orders": "There is no order to sort",
+      "reordering_no_position": "Unable to recover starting position, please select another or activate GPS",
+      "reordering_unavailable": "Order reorganization is unavailable in this status",
+      "sync_timeout": "Unable to retrieve data from the server. Please check your connection and try again",
+      "unable_to_post_push_token": "Fatal error : unable to connect to the server",
+      "multiple_stops_not_supported_ios": "Directions with multiple stops are not supported on Apple map for now\n.Please select Google maps and try again"
+    },
+    "hours": "h",
+    "info": {
+      "connection_status": {
+        "subTitle": "Your device is connected to the internet and established a connection with the servers.",
+        "title": "Connection established"
+      }
+    },
+    "information": "Information",
+    "loading": "Loading",
+    "minutes": "m",
+    "not_allowed_to_see_future_orders": "You are not authorized to see future orders",
+    "order": {
+      "label": "Order",
+      "order_has_changed": "The order's status has changed",
+      "order_not_available": "The order is no longer available."
+    },
+    "processing": "Processing...",
+    "locationDisabled": {
+      "alert_title": "Localisation disabled",
+      "device_localisation_not_enable": "Localisation is disabled. In order to use the application to it's fullest extend please enable the localisation from your device's settings",
+      "ok_button": "Ok"
+    }
+  },
+  "notifications": {
+    "clientInfos": "Client: {{clientFullName}}\n",
+    "orderNotFound": "Associated order is no longer available",
+    "unreadNotification": "Only read notifications can be deleted",
+    "update_unsuccessful": "Notification(s) have not been updated"
+  },
+  "optimizeOrders": {
+    "constraints": "Constraints",
+    "currentLocation": "Current Position",
+    "currentRoute": "Current route",
+    "endPosition": "End point",
+    "firstStop": "Start point",
+    "new_optimization": "New optimization",
+    "noLocation": "Ignore",
+    "optimize": "Optimize",
+    "options": "Options",
+    "routeHasBeenOptimized": "Route calculated : {{stops}} stops, {{distance}}, duration {{travelTime}}",
+    "startTime": "Start Time",
+    "title": "Route optimization"
+  },
+  "options": {
+    "actions": {
+      "forceGet": "Force fetch",
+      "forceSync": "Force Synchronize",
+      "label": "Actions",
+      "reorderMode": "Manual Sort",
+      "selectMany": "Multiple Selection"
+    },
+    "activeFilters": {
+      "allFields": "Search",
+      "clear": "Undo",
+      "label": "Partial list: filters activated",
+      "provider": "Provider",
+      "tagFilter": "Tags",
+      "withTimeConstraint": "Time constraint"
+    },
+    "displayType": {
+      "label": "Simplified display"
+    },
+    "displayProviderFooter": {
+      "label": "Display providers when there is no order"
+    },
+    "filter": {
+      "all": "All",
+      "none": "None",
+      "provider": "Provider",
+      "tags": "Tags",
+      "withTimeConstraint": "Time constraint"
+    },
+    "other": {
+      "label": "Other Options"
+    },
+    "search": {
+      "allFields": "Type to search",
+      "label": "Search"
+    },
+    "sort": {
+      "avgtime": "Usual Arrival Hour",
+      "distance": "Distance",
+      "dueTime": "Elapsed time",
+      "label": "Sort",
+      "lastName": "Last Name",
+      "rank": "Delivery Sequence"
+    },
+    "title": "Filters",
+    "orderReferenceDisplay": {
+      "label": "Display reference on order"
+    }
+  },
+  "order": {
+    "amount": {
+      "label": "Amount to collect"
+    },
+    "averageDeliveryMoment": {
+      "label": "Usual Arrival Hour"
+    },
+    "calculatedArrivalTime": {
+      "label": "Estimated time of arrival"
+    },
+    "client": {
+      "label": "Client",
+      "notes": {
+        "label": "Client Notes"
+      }
+    },
+    "deliveryAddress": {
+      "label": "Delivery Address"
+    },
+    "deliveryRecipient": {
+      "identity": "Name",
+      "relation": "Relation / Function",
+      "relationMore": "Relation / Function"
+    },
+    "desiredArrivalTime": "Arrival time",
+    "notes": {
+      "label": "Order Notes"
+    },
+    "reference": {
+      "label": "Order"
+    },
+    "tags": {
+      "client": {
+        "label": "Client tags"
+      },
+      "order": {
+        "label": "Order tags"
+      }
+    }
+  },
+  "pages": {
+    "location-disclosure": {
+      "title": "Use of your location",
+      "message1": "The Mobilus application collects location data to enable tracking of your trips while you work. These data are made available to the dispatcher in your organization for work planning purposes : live tracking on a map of your position, dispatching task to you or your colleague and reporting features.",
+      "message2": "The location data will be collected when the app is in used, in the background, closed, or not in use. The location data will not be collected once you log out from the application.",
+      "stop-showing": "Do not show again"
+    },
+    "accounting-reports": {
+      "customer": "Customer",
+      "delivery_message": "Delivery message",
+      "drugstore": "Organization",
+      "hauler": "Courier",
+      "number_orders": "Number of orders",
+      "order_notes": "Order notes",
+      "orders_cancelled": "Orders canceled",
+      "orders_delivered": "Orders delivered",
+      "payment_method": "Payment method",
+      "payment_report": "Summary of payments",
+      "prepared_by": "Prepared by",
+      "reference": "Reference",
+      "title": "Accounting reports",
+      "total_asked_amount": "Requested amount",
+      "total_collected_amount": "Collected amount"
+    },
+    "advanced": "Advanced settings",
+    "drawer-menu": {
+      "advanced": "Advanced",
+      "bug_report": "Incident Report",
+      "diagnostic": "Diagnostic",
+      "exitApp": "Close Application",
+      "filters": "Filters",
+      "hauler_employees": "Courier Services",
+      "help": "Help",
+      "history": "History",
+      "native-map": "Map",
+      "notification-center": "Notifications",
+      "orders": "Orders",
+      "reports": "Reports",
+      "settings": "Settings"
+    },
+    "driver-owned-info": {
+      "after": "After",
+      "and": "And",
+      "before": "Before",
+      "between": "Between",
+      "notes": "Delivery notes",
+      "notes_instructions": "Tap to enter notes",
+      "timeConstraint": "Preferred delivery time"
+    },
+    "help": {
+      "intro_seen": "Replay Introduction",
+      "title": "Help",
+      "call_us": "Call us",
+      "text_us": "Text us",
+      "online_support": "Online support"
+    },
+    "login": {
+      "connect": "Login",
+      "fingerprintLogin": "Login with fingerprint",
+      "faceLogin": "Login with face",
+      "commonLogin": "Login with biometric",
+      "endpoint": "Connecting to address",
+      "errors": {
+        "bad_credentials": "Invalid credentials.",
+        "server_unavailable": "Unable to connect to server.",
+        "biometricExpired": "Biometric connection expired"
+      },
+      "messages": {
+        "notConnected": "No internet connection available",
+        "welcome": "Welcome."
+      },
+      "password": "Password",
+      "username": "Username",
+      "validation": {
+        "password": {
+          "required": "Password is required."
+        },
+        "username": {
+          "required": "Username is required."
+        }
+      },
+      "version": "Version"
+    },
+    "map": {
+      "filter": {
+        "all": "All",
+        "label": "Statuses to display"
+      },
+      "legend": "Legend",
+      "provider": "Provider",
+      "settings": {
+        "title": "Map settings"
+      },
+      "urgentOrders": "Urgent order",
+      "orderWithTimeConstraint": "Order with time constraint",
+      "noSequenceNumberAlert": {
+        "header": "Missing sequence numbers",
+        "message": "Some orders do not have sequence numbers. Reorder your orders or optimize your route to have a direction with all orders or continue with current list.",
+        "cancel": "Cancel",
+        "continue": "Continue"
+      },
+      "tooManyWaypoints": "Maximum number of orders to select has been reached. Only the first 10 orders will be displayed"
+    },
+    "offline-info": {
+      "button-text": "Details",
+      "details": "Internet access is unavailable. Some actions will be disabled.",
+      "offline_mode": "Offline Mode",
+      "reconnecting": "Reconnecting",
+      "title": "Offline"
+    },
+    "order-detail": {
+      "apartment_number": "Apartment",
+      "apple_maps": "Apple Map",
+      "waze_maps": "Waze",
+      "apps_to_select": "Select the app you would like to use",
+      "client_external_reference": "Client reference:",
+      "deliveryRecipient": "Order Recipient",
+      "driver_notes": "Courier notes",
+      "google_maps": "Google Map",
+      "order_detail_alert_cancel": "Cancel",
+      "order_detail_alert_ok": "OK",
+      "order_external_reference": "Order reference:",
+      "payment_info": "Payment Information"
+    },
+    "order-detail-tabs": {
+      "order_detail_title": "Order",
+      "order_history_title": "Timeline",
+      "order_manifest_title": "Manifest"
+    },
+    "password-change-modal": {
+      "changePassword": "Change password",
+      "enterCurrentPassword": "Enter current password",
+      "enterNewPassword": "Enter new password",
+      "repeatNewPassword": "Repeat new password",
+      "passwordLengthWarning": "The new password should have at least 6 characters",
+      "passwordNotMatching": "The passwords didn't match.",
+      "passwordChangeError": "An error has occurred while changing password please retry"
+    },
+    "position": "Manual position entry",
+    "reorganization": {
+      "currentPosition": "Current Position",
+      "group": "Reorganization",
+      "positionSelect": "Start position:",
+      "timeConstraint": "Respect time constraints",
+      "title": "Validation"
+    },
+    "report-forms": {
+      "accounting-reports": {
+        "title": "Cash register report"
+      },
+      "all": "All",
+      "button": "Generate a report",
+      "drugstores": "Organization(s)",
+      "end_date": "End date/time",
+      "extras": "Extras",
+      "haulers": "Courier(s)",
+      "includeTagsReport": "Include tags in report",
+      "none": "None",
+      "report_date": "Report date",
+      "report_type": "Report type",
+      "start_date": "Start date/time",
+      "tags": "Tags",
+      "title": "Reports",
+      "trips-reports": {
+        "excludeAddressCopies": "Exclude apartment numbers with identical addresses",
+        "extraKm": "Extra distance (km)",
+        "title": "Travel report"
+      }
+    },
+    "settings": {
+      "DMY": "dd-mm-yyyy",
+      "MDY": "mm-dd-yyyy",
+      "YMD": "yyyy-mm-dd",
+      "apple_maps": "Apple Map",
+      "waze_maps": "Waze",
+      "biometric": "Connect with ",
+      "biometric.face": "facial recognition ",
+      "biometric.fingerprint": "fingerprint ",
+      "biometric.finger": "fingerprint ",
+      "biometric.common": "biometric ",
+      "biometric.remove": "Remove biometric authentication?",
+      "buttons": {
+        "changePin": "Change my pin",
+        "filter": "Filters",
+        "grouping": "Group by organisation",
+        "map": "Map",
+        "multipleSelection": "Multiple Selection",
+        "optimization": "Route Optimization ",
+        "reordering": "Reorganize Deliveries",
+        "signaturePin": "Pin after signature",
+        "sorting": "Sort Orders"
+      },
+      "confirmPin": "Confirm your pin",
+      "createPin": "Create a pin",
+      "dateFormat": "Date Format",
+      "display": "Display",
+      "background-geolocation-disclosure": "If Geolocation is activated, the application location tracking will always be in use. It is required to allow your organisation to display those positions and track where different actions were taken (orders ownership, delivery, pictures, etc.).",
+      "distanceUnit": "Distance unit",
+      "editPin": "Edit your pin",
+      "enterNewPin": "Enter your new pin",
+      "enterPin": "Enter your pin",
+      "geotracking": "Geolocation",
+      "google_maps": "Google Map",
+      "hourFormat": "Hour Format",
+      "hourFormatMilitary": "24H",
+      "hourFormatStandard": "12H",
+      "keepScreenOn": "Keep screen on when app is in foreground",
+      "kilometersAndMeters": "Metric system (km, m)",
+      "languages-label": "Language",
+      "locations": "Addresses",
+      "main": "Features",
+      "map_option": "Map Option",
+      "map_query_option": "Map search criteria",
+      "map_search_by_address": "Search by address",
+      "map_search_by_address_and_coordinates": "Search by address and latitude/longitude",
+      "map_search_by_coordinates": "Search by latitude/longitude",
+      "milesAndYards": "Imperial system (mile, yard)",
+      "mismatchPin": "Your pins are not identical",
+      "parameters-label": "Configuration",
+      "providers-label": "Subscriptions",
+      "signatureLockedOnLandscape": "Lock screen in landscape while signing",
+      "sequenceOnSelect": "Keep selection order",
+      "showAverageDeliveryMoment": "Display usual arrival hour",
+      "wrongPin": "Wrong pin",
+      "security": "Security",
+      "changeLoginPassword": "Change login password",
+      "colorModeOption": "Color theme",
+      "colorMode": {
+        "dark": "Dark",
+        "light": "Light",
+        "auto": "Auto"
+      },
+      "displayDelayCounter": "Display the delay counter on orders"
+    },
+    "trips-reports": {
+      "call_time": "Time of call",
+      "customer": "Client",
+      "delivery_copies": "Delivered at the same address, at the same time, by the same courier\n",
+      "delivery_hauler": "Courier",
+      "delivery_message": "Delivery message",
+      "delivery_period": "Time of delivery",
+      "delivery_pickup": "deliveries/pickups",
+      "delivery_time": "Time of delivery",
+      "departure_time": "Departure time",
+      "distance_drugstore": "Distance ({{unit}})",
+      "drugstore": "Organization",
+      "extra_distance": "Distance extra",
+      "extra_distance_km": "Extra distances ({{unit}})",
+      "extra_distance_orders": "",
+      "identical_address": "Identical addresses",
+      "kilometer_label": "Km",
+      "legend": "Legend",
+      "number": "Number",
+      "orders_label": "Orders",
+      "prep_time": "Preparation time",
+      "prepared_by": "Prepared by",
+      "recaps": "Summaries",
+      "reference": "Reference",
+      "title": "Travel report",
+      "total_service_time": "Total service time (h)",
+      "travels": "Travels",
+      "urgent_orders": "Urgent orders"
+    },
+    "biometric-opt-in": {
+      "title": "Biometric authentication",
+      "method.fingerprint": "Next time you have to connect to the application, you can use the fingerprint reader of your device.",
+      "method.face": "Next time you have to connect to the application, you can use the the facial recognition reader of your device.",
+      "method.common": "Next time you have to connect to the application, you can use the biometric authentication.",
+      "method.biometric": "Next time you have to connect to the application, you can use the biometric authentication.",
+      "success": "Biometric authentication successfully activated.",
+      "stop-showing": "Don't ask me again",
+      "activate": "Activate"
+    },
+    "biometric": {
+      "show.title": "Conneion biométrique",
+      "show.description": "Connectez vous via l'authentification biométrique"
+    },
+    "transitions-debug": {
+      "header": "Pending Transitions",
+      "labels": {
+        "order-number": "Order number",
+        "order-client-name": "Order client name",
+        "order-address": "Order address",
+        "transition-name": "Transition name",
+        "number-of-attachments": "Number of Attachments",
+        "number-of-retries": "Number of Retries",
+        "number-of-timeouts": "Number of Timeouts",
+        "retry": "RETRY"
+      },
+      "messages": {
+        "no-pending-transactions-text": "No Pending Transitions",
+        "manual-transition-failed-error-message": "Transition failed",
+        "manual-transition-succeeded-message": "Transition succeeded",
+        "failed-get-pending-transitions-error-message": "Failed to get pending transitions",
+        "failed-get-pending-transition-order-error-message": "Failed to get the order for a pending transition"
+      }
+    },
+    "transition-detail-debug": {
+      "header": "Pending Transition Logs",
+      "labels": {
+        "date": "Date",
+        "order-number": "Order number"
+      },
+      "messages": {
+        "no-transaction-detail-text": "No Pending Transition Logs"
+      }
+    },
+    "reloader": {
+      "prompt-to-reload": "Please click to reload the view",
+      "prompt-to-navigate-back": "or navigate back"
+    }
+  },
+  "picture": {
+    "take": {
+      "button": "Add a picture"
+    }
+  },
+  "policies": {
+    "acknowledgement": "By using this application you accept the terms and conditions available at",
+    "lastUpdate": "Last updated on",
+    "privacyPolicy": "Privacy policy",
+    "termsAndConditions": "Terms and conditions",
+    "title": "Usage and privacy policies"
+  },
+  "reason": {
+    "absent": "Client absent",
+    "addressNotFound": "Address not found",
+    "other": "Other",
+    "packageAbsent": "Package missing"
+  },
+  "routeSummary": {
+    "distance": "Distance",
+    "duration": "Duration",
+    "startAt": "Start Time",
+    "stopCount": "Stops",
+    "travelTime": "min",
+    "withTimeConstraints": "Constraints Respected",
+    "summary": "Current route : Travel time is {{travelTime}} for a distance of {{distance}}",
+    "directionsForOptimizedRoute": "Open map for directions"
+  },
+  "security": {
+    "unsecuredDevice": {
+      "subTitle": "Please secure device before continuing",
+      "title": "Device is not protected"
+    }
+  },
+  "selectRecipient": {
+    "instruction": "List of authorized person(s)",
+    "title": "Select person"
+  },
+  "signature": {
+    "confirm": {
+      "text": "I accept the signature above"
+    },
+    "instructions": "Use your finger or a stylus to enter your signature below.",
+    "open": {
+      "button": "Add a signature"
+    },
+    "title": "Signature"
+  },
+  "tag": {
+    "label": {
+      "callbeforedelivery": "Call",
+      "checkaccepted": "Check ",
+      "frigo": "Fridge",
+      "plancher": "Floor",
+      "signaturemandatoryclient": "Signature mandatory",
+      "signaturemandatoryorder": "Signature mandatory",
+      "urgent": "Urgent"
+    },
+    "label_long": {
+      "callbeforedelivery": "Call",
+      "checkaccepted": "Check accepted",
+      "frigo": "Fridge",
+      "plancher": "Floor",
+      "signaturemandatoryclient": "Mandatory Signature",
+      "signaturemandatoryorder": "Mandatory Signature",
+      "urgent": "Urgent"
+    }
+  },
+  "title": "Mobilus",
+  "transition": {
+    "actions": {
+      "selectComment": "Comment",
+      "selectHauler": "Transfer to",
+      "selectInterlocutor": "Interlocutor",
+      "selectPayment": "Payment",
+      "selectPicture": "Photo",
+      "selectReason": "Explain",
+      "selectReasonChoicesOther": "Explain",
+      "selectSignature": "Signature"
+    },
+    "amount": {
+      "explanation": "(Touch to apply same amount)",
+      "label": "Asked amount"
+    },
+    "collectedAmount": {
+      "label": "Collected amount",
+      "placeholder": "$ amount"
+    },
+    "comment": {
+      "label": "Comment",
+      "placeholder": "Enter a comment"
+    },
+    "doorCode": {
+      "label": "Door Opening Code"
+    },
+    "hauler": {
+      "header": "Transfer order to:"
+    },
+    "paymentMode": {
+      "select": "Select payment mode",
+      "selected": "Payment Mode"
+    },
+    "paymentType": {
+      "cash": "Cash",
+      "check": "Check",
+      "client_account": "Client Account",
+      "credit": "Debit/Credit",
+      "credit_files": "Pre-authorized Credit",
+      "none": "No payment collected",
+      "select": "Select payment mode",
+      "debit": "Debit",
+      "e_transfer": "e-transfer",
+      "credit_visa": "Credit card VISA",
+      "credit_mastercard": "Credit card Mastercard",
+      "credit_amex": "Credit card AMEX"
+    },
+    "reason": {
+      "label": "Reason",
+      "placeholder": "Enter a reason"
+    },
+    "recipientIdentity": {
+      "label": "Name of recipient"
+    },
+    "relationWithClient": {
+      "label": "Relation / Function",
+      "other": "Specify relation/function",
+      "receptionGroup": {
+        "authorizedRecipients": "Auth. Recipient",
+        "label": "Order received by",
+        "other": "Other",
+        "self": "Client"
+      },
+      "relations": {
+        "familyChild": "Adult child",
+        "friend": "Friend",
+        "nurse": "Nurse",
+        "other": "Other",
+        "parent": "Parent (father/mother)",
+        "reception": "Desk / Reception",
+        "self": "Client",
+        "spouse": "Spouse/Partner"
+      }
+    },
+    "total": "Total",
+    "unbalancedPayment": {
+      "label": "Justify the difference"
+    },
+    "warning": {
+      "distance": {
+        "multiple": "You are trying to do an action at more than {{distance}} of at least one of the addresses. Are you sure you want to continue?",
+        "subTitle": "You are trying to do an action at more than {{distance}} of the target address. Are you sure you want to continue?",
+        "title": "Out of range"
+      }
+    }
+  },
+  "transitions": {
+    "titles": {
+      "BACK_PROVIDER": "Back to provider",
+      "BACK_TO_PROVIDER": "Back to provider",
+      "CUSTOMER_DELIVERY": "Order Delivery",
+      "PAYMENT_UPDATE": "Edition",
+      "PICKUP": "Pick-up",
+      "TRANSFER_TO_HAULER": "Order transfer",
+      "UNABLE_TO_COMPLETE_DELIVERY": "Unable to deliver",
+      "UNABLE_TO_PICKUP": "Unable to pick up",
+      "batch": "Batch Processing",
+      "single": "Single Processing"
+    },
+    "messages": {
+      "transition-has-been-declined-error-message": "Transtion has been declined. Please check the sentry logs",
+      "reached-max-transition-retry-error-message": "Reached maximum number for the transition request retries. Please check the sentry logs",
+      "transition-failed-fallthrough-treatment-error-message": "Transition failed fallthrough treatment, may need inspection. Please check the sentry logs"
+    }
+  },
+  "walkthrough": {
+    "cancel": "Close",
+    "confirmInstruction": "Do you want to display an explanation about the buttons?",
+    "confirmTitle": "Introduction",
+    "doneLabel": "Close",
+    "nextLabel": "Next >",
+    "play": "Display",
+    "prevLabel": "< Previous",
+    "skipLabel": "Ignore",
+    "v2_4_x": {
+      "availableInHelp": "<strong>Always available</strong><br /><br />You can always replay this introduction from <em>Help</em> in the menu on the left.",
+      "byStatus": "<strong>By status actions</strong><br /><br />The following buttons:<ul><li>Grouping</li><li>Sorting</li><li>Search and filter</li></ul> now affect only the current status.",
+      "filter": "<strong>Search and filter</strong><br /><br />The <em>search</em> tool allows you to find orders by name or address.<br /><br />The <em>Time Constraint</em> filter displays only orders with such a constraint.<br /><br />The <em>tag</em> filter displays orders that contain at least one of the selected tags.",
+      "grouping": "<strong>Grouping</strong><br /><br />Allows to activate or deactivate order grouping by organization or type (delivery / pick-up).",
+      "intro": "Daily actions are easily accessible.<br /><br />You can hide unused buttons directly from <em>Settings</em> in the menu on the left.",
+      "map": "<strong>Map view</strong><br /><br />Allows to view, orders, and their status, the organization location and your own location in one single view.<br /><br />You have access to the same actions from this view as in the list view.",
+      "multipleSelection": "<strong>Batch actions</strong><br /><br />Allows to select more than one order to process them together.",
+      "optimize": "<strong>Optimize delivery sequence</strong><br /><br />Request server to calculate the best route for delivery.<br /><br />This action is accessible only if your organization explicitly requested it.",
+      "reorder": "<strong>Reorganize delivery sequence</strong><br /><br />Allows you to modify the sequence in which you will deliver orders.<img src=\"assets/images/reorder_en.gif\" style=\"display: block; margin-left: auto; margin-right: auto; width: 75%; height: 75%\">",
+      "sorting": "<strong>Sort orders</strong><br /><br />Allows viewing orders according to one of the following sort choice:<ul><li>Last name</li><li>Orders sequence</li><li>Distance (as the crow flies) from your current position</li></ul>"
+    }
+  },
+  "workflows": {
+    "abbrev": {
+      "delivery": "D",
+      "pickup": "P",
+      "recurrence": "R"
+    },
+    "events": {
+      "back_provider": "Drop off",
+      "back_to_delivery": "Back to delivery",
+      "back_to_provider": "Back to provider",
+      "cancelled": "Canceled",
+      "customer_delivery": "Delivered",
+      "edit_payment": "Edit",
+      "order_created": "Initialized",
+      "pickup": "Collect",
+      "send_back_ready_for_haulage": "Return",
+      "take_in_charge": "Take ownership",
+      "transfer_to_hauler": "Transfer",
+      "unable_to_complete_delivery": "Not delivered",
+      "unable_to_pickup": "Unable to collect"
+    },
+    "names": {
+      "DELIVERY": "Delivery",
+      "PICKUP": "Pick-up"
+    },
+    "status": {
+      "cancelled": "Canceled",
+      "completed": "Completed",
+      "delivered": "Delivered",
+      "in_preparation": "In preparation",
+      "not_activated": "Not activated",
+      "on_the_way_to_customer": "On the way to customer",
+      "on_the_way_to_customer_abv": "On the way",
+      "on_the_way_to_provider": "Returning",
+      "on_the_way_to_provider_abv": "Returning",
+      "order_created": "Initialized",
+      "ready_for_haulage": "Ready for delivery",
+      "ready_for_haulage_abv": "Ready",
+      "to_process_provider": "To process",
+      "to_process_provider_error": "To process",
+      "to_process_provider_recurring": "To process"
+    }
+  },
+  "userProfile": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phoneNumber": "Phone Number",
+    "email": "Email",
+    "profile": "Profile",
+    "edit": "Edit",
+    "save": "Save"
+  }
+}
